@@ -1,0 +1,40 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> driveline-inventory@1.0.0 test
+> vitest run --coverage --reporter=default --reporter=junit --outputFile=../docs/frontend-tests.xml
+
+
+ RUN  v5.0.5 /workspace/scratch/a5585dc143af/deliverable/car-dealership-inventory/frontend
+      Coverage enabled with v8
+
+ ✓ src/api.test.js (5 tests) 16ms
+ ✓ src/App.test.jsx (15 tests) 3772ms
+   ✓ admin can add a vehicle 382ms
+   ✓ admin can edit vehicle 301ms
+   ✓ inverted price range shows validation without sending search 334ms
+
+ Test Files  2 passed (2)
+      Tests  20 passed (20)
+   Start at  21:18:56
+   Duration  5.93s (tests 57%, environment 29%, setup 5%, transform 4%, import 4%, worker 2%)
+
+JUNIT report written to /workspace/scratch/a5585dc143af/deliverable/car-dealership-inventory/docs/frontend-tests.xml
+ % Coverage report from v8
+-------------------|---------|----------|---------|---------|-------------------
+File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------------|---------|----------|---------|---------|-------------------
+All files          |   83.75 |    88.63 |      88 |   83.78 |                   
+ src               |     100 |       96 |     100 |     100 |                   
+  api.js           |     100 |    95.45 |     100 |     100 | 36                
+ src/components    |   80.95 |    87.41 |   86.95 |   81.25 |                   
+  AuthForm.jsx     |   96.42 |    93.54 |     100 |   96.42 | 42                
+  Dashboard.jsx    |   75.96 |    78.33 |   84.37 |   75.51 | ...69,260,357,481 
+  ...cleDialog.jsx |   78.57 |       92 |   83.33 |   80.76 | 52-53,58,66-67    
+-------------------|---------|----------|---------|---------|-------------------
+
+=============================== Coverage summary ===============================
+Statements   : 83.75% ( 165/197 )
+Branches     : 88.63% ( 156/176 )
+Functions    : 88% ( 44/50 )
+Lines        : 83.78% ( 155/185 )
+================================================================================

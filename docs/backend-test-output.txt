@@ -1,0 +1,26 @@
+........................................................................ [ 82%]
+...............                                                          [100%]
+=============================== warnings summary ===============================
+../../../../../../tmp/dealership-venv/lib/python3.12/site-packages/fastapi/testclient.py:1
+  /tmp/dealership-venv/lib/python3.12/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+    from starlette.testclient import TestClient as TestClient  # noqa
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.12.14-final-0 _______________
+
+Name                     Stmts   Miss Branch BrPart  Cover   Missing
+--------------------------------------------------------------------
+app/__init__.py              0      0      0      0   100%
+app/admin.py                19      1      6      1    92%   37
+app/database.py             84      0     18      0   100%
+app/dependencies.py         27      0     10      0   100%
+app/main.py                 86      0      8      0   100%
+app/schemas.py              39      0      0      0   100%
+app/security.py              8      0      0      0   100%
+app/seed.py                 13      1      4      1    88%   30
+app/vehicle_schemas.py       1      1      0      0     0%   1
+--------------------------------------------------------------------
+TOTAL                      277      3     46      2    98%
+Coverage HTML written to dir ../docs/backend-coverage
+87 passed, 1 warning in 19.52s

@@ -1,0 +1,18 @@
+{
+  "passed": 12,
+  "checks": [
+    "Login screen renders",
+    "Admin sign-in and real inventory fetch",
+    "Admin creates vehicle through UI and API",
+    "Admin updates vehicle",
+    "Admin restocks vehicle",
+    "Admin deletes after confirmation",
+    "Server-side search filters inventory",
+    "Sold-out purchase disabled",
+    "Customer has no admin controls",
+    "Customer purchase persists quantity change",
+    "Mobile dashboard has no horizontal overflow",
+    "No uncaught browser JavaScript errors"
+  ],
+  "uncaught_errors": []
+}
